@@ -1,8 +1,6 @@
 /* Crea un programa que pida al usuario su nombre y lo salude */
 import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
-
 public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner leerDatos = new Scanner(System.in);
@@ -11,5 +9,6 @@ public class Ejercicio1 {
         String nombre = leerDatos.nextLine();
 
         System.out.println("Buenas " + nombre + ", ten un buen dia.");
+        leerDatos.close();
     }
 }

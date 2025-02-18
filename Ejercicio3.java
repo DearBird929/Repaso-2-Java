@@ -11,6 +11,6 @@ public class Ejercicio3 {
         for (int i = 1; i <= n1; i++) {
             System.out.println(i);
         }
-
+        leerDatos.close();
     }
 }

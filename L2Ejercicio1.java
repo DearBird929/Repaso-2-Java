@@ -1,7 +1,7 @@
 /* Pide al usuario dos números y una operación (+, -, *, /) y muestra el resultado */
 import java.util.Scanner;
 
-public class T2Ejercicio1 {
+public class L2Ejercicio1 {
     public static void main (String [] args) {
         Scanner leerDatos = new Scanner(System.in);
 
@@ -35,5 +35,6 @@ public class T2Ejercicio1 {
             System.out.println("No es una opción valida");
                 break;
         }
+        leerDatos.close();
     }
 }

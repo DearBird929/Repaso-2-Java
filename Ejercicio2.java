@@ -12,5 +12,6 @@ public class Ejercicio2 {
         } else {
             System.out.println("No, el número " + numero + " es impar");
         }
+        leerDatos.close();
     }
 }

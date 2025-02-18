@@ -18,5 +18,6 @@ public class Ejercicio4 {
             n2 = leerDatos.nextInt();
         }
         System.out.println("Lo has adivinado, el número era " + n1);
+        leerDatos.close();
     }
 }
