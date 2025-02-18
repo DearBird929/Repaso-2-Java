@@ -1,6 +1,6 @@
 /* Pide al usuario 5 números y guárdalos en un array. Luego, muéstralos. */
 
-import java.util.Scanner;
+import java.util.Scanner; // SIN TERMINAR
 
 public class L2Ejercicio4 {
     public static void main (String [] args) {
@@ -12,5 +12,6 @@ public class L2Ejercicio4 {
             System.out.println("Dame un número ");
             n1[i] = leerDatos.nextInt();
         }
+        leerDatos.close();
     }
 }
