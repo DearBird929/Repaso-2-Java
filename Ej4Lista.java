@@ -2,7 +2,7 @@
 
 import java.util.Scanner; // SIN TERMINAR
 
-public class L2Ejercicio4 {
+public class Ej4Lista {
     public static void main (String [] args) {
         Scanner leerDatos = new Scanner(System.in);
         int[] n1 = new int[5];

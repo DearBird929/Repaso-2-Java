@@ -2,7 +2,7 @@
 
 import java.util.Scanner; // Importamos el scanner
 
-public class L2Ejercicio3 { //Nombre del projecto
+public class Ej3Pares { //Nombre del projecto
     public static void main (String [] args) {
         Scanner leerDatos = new Scanner(System.in); // creamos el scanner y le asignamos un nombre
         System.out.println("Dame el número "); 

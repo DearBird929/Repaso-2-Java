@@ -1,7 +1,7 @@
 /* Pide al usuario dos números y una operación (+, -, *, /) y muestra el resultado */
 import java.util.Scanner;
 
-public class L2Ejercicio1 {
+public class Ej1Calculadora {
     public static void main (String [] args) {
         Scanner leerDatos = new Scanner(System.in);
 

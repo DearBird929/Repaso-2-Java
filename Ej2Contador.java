@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class L2Ejercicio2 {
+public class Ej2Contador {
     public static void main (String [] args) {
         Scanner leerDatos = new Scanner(System.in);
         System.out.println("Dame el número que quieras: ");
